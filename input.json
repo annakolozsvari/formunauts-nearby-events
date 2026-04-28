@@ -1,0 +1,155 @@
+[
+    {
+        "model": "tracking.event",
+        "pk": 9801193,
+        "fields": {
+            "customer": 9,
+            "fundraiser": 146,
+            "name": "login",
+            "event_type": "automatic",
+            "timestamp": "2026-03-01T09:12:44.201Z",
+            "event_context": {
+                "source_id": "login",
+                "target_id": null,
+                "source_category": "login"
+            },
+            "browser_location": {
+                "current": "https://staging.formunauts.com/auth/post-login",
+                "referrer": "https://staging.formunauts.com/auth/login"
+            },
+            "device_coordinates": "SRID=4326;POINT (16.374211 48.225678)"
+        }
+    },
+    {
+        "model": "tracking.event",
+        "pk": 9801211,
+        "fields": {
+            "customer": 9,
+            "fundraiser": 37096,
+            "name": "location-check-in",
+            "event_type": "automatic",
+            "timestamp": "2026-03-01T14:45:12.332Z",
+            "event_context": {
+                "source_id": "location-check-in",
+                "target_id": null,
+                "source_category": "location-check-in"
+            },
+            "browser_location": {
+                "current": "https://staging.formunauts.com/next/(locations/21914//check-in:603/locations)",
+                "referrer": "https://staging.formunauts.com/next/(locations//check-in:603/locations)"
+            },
+            "device_coordinates": "SRID=4326;POINT (16.350123 48.209845)"
+        }
+    },
+    {
+        "model": "tracking.event",
+        "pk": 9801212,
+        "fields": {
+            "customer": 9,
+            "fundraiser": 37096,
+            "name": "login",
+            "event_type": "automatic",
+            "timestamp": "2026-03-02T10:05:59.011Z",
+            "event_context": {
+                "source_id": "login",
+                "target_id": null,
+                "source_category": "login"
+            },
+            "browser_location": {
+                "current": "https://staging.formunauts.com/auth/post-login",
+                "referrer": "https://staging.formunauts.com/auth/login"
+            },
+            "device_coordinates": "SRID=4326;POINT (16.368776 48.217342)"
+        }
+    },
+    {
+        "model": "tracking.event",
+        "pk": 9801213,
+        "fields": {
+            "customer": 9,
+            "fundraiser": 37096,
+            "name": "conversation-start",
+            "event_type": "click",
+            "timestamp": "2026-03-02T16:22:18.445Z",
+            "event_context": {
+                "tag_name": "BUTTON",
+                "source_id": "603",
+                "target_id": null,
+                "source_category": "campaign-start"
+            },
+            "browser_location": {
+                "current": "https://staging.formunauts.com/next/forms/603/start",
+                "referrer": "https://staging.formunauts.com/next"
+            },
+            "device_coordinates": "SRID=4326;POINT (16.355678 48.202611)"
+        }
+    },
+    {
+        "model": "tracking.event",
+        "pk": 9801214,
+        "fields": {
+            "customer": 9,
+            "fundraiser": 37096,
+            "name": "campaign-form-open",
+            "event_type": "click",
+            "timestamp": "2026-03-03T08:11:05.987Z",
+            "event_context": {
+                "tag_name": "BUTTON",
+                "source_id": "603",
+                "target_id": null,
+                "source_category": "campaign-start"
+            },
+            "browser_location": {
+                "current": "https://staging.formunauts.com/next/forms/603/start",
+                "referrer": "https://staging.formunauts.com/next"
+            },
+            "device_coordinates": "SRID=4326;POINT (16.361122 48.222109)"
+        }
+    },
+    {
+        "model": "tracking.event",
+        "pk": 9801215,
+        "fields": {
+            "customer": 9,
+            "fundraiser": 37096,
+            "name": "campaign-form-success",
+            "event_type": "click",
+            "timestamp": "2026-03-03T11:54:33.210Z",
+            "event_context": {
+                "tag_name": null,
+                "source_id": "603",
+                "target_id": null,
+                "source_category": "campaign-form"
+            },
+            "browser_location": {
+                "current": "https://staging.formunauts.com/next/forms/603/form/pages/signature-step",
+                "referrer": "https://staging.formunauts.com/next/forms/603/form/pages/qa-step"
+            },
+            "device_coordinates": "SRID=4326;POINT (16.378901 48.213344)"
+        }
+    },
+    {
+        "model": "tracking.event",
+        "pk": 9801216,
+        "fields": {
+            "customer": 9,
+            "fundraiser": 37096,
+            "name": "conversation-end",
+            "event_type": "click",
+            "timestamp": "2026-03-04T09:40:12.665Z",
+            "event_context": {
+                "reason": "donation",
+                "duration": 1.8100833333333335,
+                "tag_name": null,
+                "source_id": "603",
+                "target_id": null,
+                "source_category": "campaign-form"
+            },
+            "browser_location": {
+                "current": "https://staging.formunauts.com/next/forms/603/form/pages/signature-step",
+                "referrer": "https://staging.formunauts.com/next/forms/603/form/pages/qa-step"
+            },
+            "device_coordinates": "SRID=4326;POINT (16.365432 48.205567)"
+        }
+    }
+]
